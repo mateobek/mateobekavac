@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #2b2a36;
+    background-image:;
+    color:#cfd29f;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#51a594;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color:#485a62;
+    width:100%;
+    display: flex;
+}
+nav ul{
+    list-style-type: none;
+    margin: auto;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    background-color:#485a62;
+    text-decoration: none;
+    color:#fffef6 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color:#51a594;
+    color:#2b2a36;
+}
+section{
+    margin: 20px;
+}
+p{
+    margin:25px;
+    
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.gnijezdo{
+    margin-left:15px;
+}
+#lokalni, #ytVid, #slike, #zvuk{
+    margin: 20px;
+    float: left;
+}
+#slike{
+    width: 1520px;
+    height: 300px;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multimedija</title>
+    <link rel="stylesheet" href="stil.css" type="text/css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html"> Početna </a></li>
+            <li> <a href="https://www.w3schools.com/" target="blank"> Vanjski link</a> </li>
+            <li> <a href="#"> Multimedija </a></li>
+            <li> <a href="10_vježba_HTML.pdf" target="blank"> PDF </a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="lokalni">
+            <video width="480px" height="320px" controls> 
+                <source src="vid/video.mp4" type="video/mp4" /> 
+                
+                Tvoj browser ne podržava ovaj format video datoteke 
+            </video>
+        </div>
+        <div id="ytVid">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HR5zpFs7YpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+        </div>
+        
+        <div id="zvuk">
+            <audio controls> 
+                <source src="audio/zvuk.mp3" type="audio/mp3" /> 
+                Tvoj browser ne podržava ovaj format audio datoteke 
+            </audio> 
+        </div>
+        <div id="slike" >
+            <img src="img/11.jpg" />
+            <img src="img/22.jpg" />
+            <img src="img/33.jpg" />
+        </div>
+    </div>
+    
+</body>
+</html>
